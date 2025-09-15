@@ -11,16 +11,16 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-2">Links</h4>
           <ul className="space-y-1 text-sm">
-            <li><a href="#about" className="hover:text-white">About</a></li>
-            <li><a href="#contacts" className="hover:text-white">Contacts</a></li>
+            <li><a href="/" className="hover:text-white">About</a></li>
+            <li><a href="/" className="hover:text-white">Contacts</a></li>
           </ul>
         </div>
         <div>
           <h4 className="font-semibold mb-2">Follow Us</h4>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-white">Twitter</a>
-            <a href="#" className="hover:text-white">Facebook</a>
-            <a href="#" className="hover:text-white">Instagram</a>
+            <a href="/" className="hover:text-white">Twitter</a>
+            <a href="/" className="hover:text-white">Facebook</a>
+            <a href="/" className="hover:text-white">Instagram</a>
           </div>
         </div>
       </div>
