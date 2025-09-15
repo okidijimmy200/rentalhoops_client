@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 export default function DriverContacts() {
   return (
     <section className="py-12 px-4 bg-gray-50">
@@ -5,10 +6,17 @@ export default function DriverContacts() {
       <div className="grid gap-6 md:grid-cols-3">
         
         {/* Tuk Tuk */}
-        <div className="p-6 bg-white shadow-md rounded-lg text-center">
+
+        <Link 
+  to="/tuktuk" 
+  onClick={() => console.log("Tuk Tuk link clicked")} 
+  className="hover:text-blue-600"
+>
+          <div className="p-6 bg-white shadow-md rounded-lg text-center">
           <h3 className="text-lg font-semibold mb-2">Tuk Tuk Drivers</h3>
           <p className="text-gray-600">Find reliable Tuk Tuk drivers in your area.</p>
         </div>
+</Link>
 
         {/* Lorry */}
         <div className="p-6 bg-white shadow-md rounded-lg text-center">

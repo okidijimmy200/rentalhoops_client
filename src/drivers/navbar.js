@@ -12,7 +12,7 @@ export default function Navbar() {
           <div className="flex items-center order-1 md:order-1">
             <a href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 flex items-center justify-center rounded-full bg-indigo-600 text-white font-bold">R</div>
-              <span className="sr-only">RentalHoops</span>
+              <span className="sr-only">Rentalhoops</span>
               <span className="hidden sm:inline-block text-gray-800 dark:text-gray-100 font-semibold">Rentalhoops</span>
             </a>
           </div>
