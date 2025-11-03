@@ -4,32 +4,33 @@ function TukTukPage() {
   const drivers = [
     {
       id: 1,
+      name: "Simon Peter Oryema",
+      type: "Tuk Tuk",
+      stage: "Industrial Area",
+      phone: "0765 846 261 | 0785 205 885",
+    },
+    {
+      id: 2,
+      name: "Steven Peko-Odiya",
+      type: "Tuk Tuk",
+      stage: "Industrial Area",
+      phone: "0779 628 707 | 0705 099 702",
+    },
+    {
+      id: 3,
       name: "Stewart Ochoa",
       type: "Tuk Tuk",
       stage: "Layibi Railway",
       phone: "0791 712 133",
     },
     {
-      id: 2,
+      id: 4,
       name: "Patrick Komagum",
       type: "Tuk Tuk",
       stage: "Layibi Railway",
       phone: "0774 544 300",
     },
-    {
-      id: 3,
-      name: "Simon Peter Oryema",
-      type: "Tuk Tuk",
-      stage: "Layibi Industrial Area",
-      phone: "0765 846 261 | 0785 205 885",
-    },
-    {
-      id: 4,
-      name: "Steven Peko-Odiya",
-      type: "Tuk Tuk",
-      stage: "Layibi Industrial Area",
-      phone: "0779 628 707 | 0705 099 702",
-    },
+
   ];
 
   return (
