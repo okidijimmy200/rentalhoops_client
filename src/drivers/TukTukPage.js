@@ -54,12 +54,19 @@ function TukTukPage() {
               </h3>
               <p className="text-sm text-gray-500">{driver.type}</p>
               <p className="text-sm text-gray-500">{driver.stage}</p>
-              <a
-                href={`tel:${driver.phone}`}
-                className="mt-3 inline-block text-blue-600 font-medium hover:underline"
-              >
-                {driver.phone}
-              </a>
+
+              {/* Split phone numbers and render each one */}
+              <div className="mt-3">
+                {driver.phone.split("|").map((num, index) => (
+                  <a
+                    key={index}
+                    href={`tel:${num.trim().replace(/\s+/g, "")}`}
+                    className="block text-blue-600 font-medium hover:underline"
+                  >
+                    {num.trim()}
+                  </a>
+                ))}
+              </div>
             </div>
           ))}
         </div>
